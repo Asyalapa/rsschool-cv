@@ -1,0 +1,52 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #EDF2EC;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1440px;
+    padding: 42px 110px;
+}
+
+.header_title {
+    margin: 0;
+    padding-left: 22px;
+    padding-top: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    background: no-repeat url('/plants/img/logo_vector.svg');
+    background-position-y: center;
+}
+
+.header_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header_list-item:not(:last-child) {
+    margin-right: 46px;
+}
+
+.header_list-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+.header_list-link:hover,
+.header_list-link:active {
+    color: #e06733;
+    font-weight: 700;
+    cursor: pointer;
+}
