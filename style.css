@@ -6,9 +6,13 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    display: none;
-    background: rgba(255, 255, 255, 0.0);
+    width: .8rem;
+    background: rgba(110, 211, 140, 0.3);
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: .4rem;
+    background: rgba(110, 211, 140, 0.6);
 }
 
 .wrapper {
