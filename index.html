@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Makarova A</title>
+    <link type="Image/x-icon" href="./img/photo.jpg" rel="icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+        <div class="header_wrapper">
+            <h1 class="header_title">MAKAROVA Anastasiya</h1>
+            <p class="header_desc">Frontend developer</p>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_list">
+                <li class="header_list-item"><a href="#aboutMe" class="list_link">about me</a></li>
+                <li class="header_list-item"><a href="#education" class="list_link">education</a></li>
+                <li class="header_list-item"><a href="#projects" class="list_link">projects</a></li>
+                <li class="header_list-item"><a href="#codeExample" class="list_link">code example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main_left-wrapper">
+            <div class="main_left-section">
+                <img class="main_image" src="./img/photo.jpg" alt="Photo Makarova A">
+            </div>
+            <section class="main_left-section">
+                <h3 class="main_left-title">Contacts</h3>
+                <div class="main_contacts">
+                    <a class="contacts_link" href="https://t.me/asyalapa"><img class="contacts_logo" src="./img/telegram-mark.svg" alt="Лого телеграм">@asyalapa</a>
+                    <a class="contacts_link" href="https://github.com/Asyalapa"><img class="contacts_logo" src="./img/github-mark.svg" alt="Лого гитхаб">Asyalapa</a>
+                </div>
+            </section>
+            <section class="main_left-section">
+                <h3 class="main_left-title">Skills</h3>
+                <ul class="main_contacts main_left-list">
+                    <li class="left-list_item item1">HTML</li>
+                    <li class="left-list_item item2">CSS</li>
+                    <li class="left-list_item item3">JavaScript</li>
+                </ul>
+            </section>
+            <section class="main_left-section">
+                <h3 class="main_left-title">Languages</h3>
+                <ul class="main_contacts main_left-list">
+                    <li class="left-list_item item4">Russian - Native</li>
+                    <li class="left-list_item item5">English - A2</li>
+                </ul>
+            </section>
+        </div>
+        <div class="main_right-wrapper">
+            <section id="aboutMe" class="main_right-section">
+                <h2 class="main_right-title">About me</h2>
+                <p class="right-section_about right-sections-desc">Currently on maternity leave. During this time, I decided to delve into frontend development. What started as a hobby quickly became a passion, and now I aim to turn this interest into a professional career. My goal is to join a team where I can apply and develop my skills, contributing to the creation of high-quality and innovative web products.</p>
+            </section>
+            <section id="education" class="main_right-section">
+                <h2 class="main_right-title">Education</h2>
+                    <ul class="right-section_education right-sections-desc">
+                        <li>
+                            <ul class="right-section_education education_list">
+                                <li>2022-...</li>
+                                <li class="education_list-item">The Rolling Scopes School</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="right-section_education education_list">
+                                <li>2021-2021</li>
+                                <li class="education_list-item">Innopolis University</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="right-section_education education_list">
+                                <li>2009-2016</li>
+                                <li class="education_list-item">Nizhny Novgorod State Technical University n.a. R.E. Alekseev</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </section>
+            <section id="projects" class="main_right-section">
+                <h2 class="main_right-title">Projects</h2>
+                <div class="right-sections-desc right-section_projects">
+                    <a class="projects_link" href="https://asyalapa.github.io/freecodecamplearning/"><img class="projects_image" src="./img/fcproject.png" alt="Free code camp project">Survey form</a>
+                </div>
+            </section>
+            <section id="codeExample" class="main_right-section">
+                <h2 class="main_right-title">Code example</h2>
+                <div class="right-sections-desc">
+                    <pre class="right-sections_codeExample"><code>// функция добавляющая класс error
+    function formAddError(input, massage) {
+        const formControl = input.parentElement;
+        formControl.classList.add('_error');
+        input.classList.add('_error');
+        const small = formControl.querySelector('small');
+        small.innerText = massage;
+    }</code>
+                    </pre>
+                </div>
+            </section>
+        </div>
+    </main>
+        <footer class="footer">
+        <div class="footer_wrapper">
+            <a class="contacts_link" href="https://github.com/Asyalapa"><img class="contacts_logo" src="./img/github-mark.svg" alt="GitHub's logo">Asyalapa</a>
+            <p class="footer_copy">&copy; 2024</p>
+        </div>
+        <div class="footer_wrapper">
+            <a href="https://rs.school/courses/javascript-ru"><img class="footer_image" src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/25280abf1815aaf58ff04a69c0f82393d5f54ef0/tasks/cv/rs-school-logo.svg" alt="RS School"></a>
+        </div>
+    </footer>
+    </div>
+   </body>
+</html>
