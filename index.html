@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Makarova A</title>
+    <link type="Image/x-icon" href="./img/photo.jpg" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <noscript>
+        <style>.reveal { opacity: 1; transform: none; }</style>
+    </noscript>
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#top" class="header__logo" data-translate="logo">AM</a>
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li>
+                        <a href="#about" class="header__link">01 <span data-translate="about">ABOUT</span></a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="header__link">02 <span data-translate="skills">SKILLS</span></a>
+                    </li>
+                    <li> <a href="#projects" class="header__link">03 <span data-translate="projects">PROJECTS</span></a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="header__link">04 <span data-translate="experience">EXPERIENCE</span></a>
+                    </li>
+                    <li>
+                        <a href="#education" class="header__link">05 <span data-translate="education">EDUCATION</span></a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="header__link">06 <span data-translate="contact">CONTACT</span></a>
+                </li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button type="button" id="lang-toggle" class="btn btn--lang" data-translate="btn_lang">EN</button>
+                <button type="button" class="header__burger" aria-label="Open menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero__grid">
+                <div class="hero__meta">
+                    <span class="hero__label" data-translate="hero_label">PORTFOLIO | CV</span>
+                    <span class="hero__status" data-translate="hero_status">AVAILABLE FOR WORK</span>
+                </div>
+
+                <div class="hero__content">
+                    <div class="hero__title">
+                        <h1 class="hero__name" data-translate="hero_name">ANASTASIYA<br>MAKAROVA</h1>
+                        <p class="hero__role" data-translate="hero_role">JUNIOR FRONTEND<br>DEVELOPER</p>
+                    </div>
+
+                    <div class="hero__info">
+                        <p class="hero__description" data-translate="hero_description">
+                            Creating modern web interfaces, learning JavaScript, and growing in frontend development.
+                        </p>
+
+                        <div class="hero__contacts">
+                            <a href="mailto:asyalapa@gmail.com" class="hero__contact-link">asyalapa@gmail.com</a>
+                            <a href="https://github.com/asyalapa" target="_blank" rel="noopener noreferrer" class="hero__contact-link">GitHub ↗</a>
+                            <span class="hero__location" data-translate="hero_location">Russia | Remote</span>
+                        </div>
+                    </div>
+
+                    <div class="hero__action">
+                        <button type="button" class="btn btn--print-hero"  id="print-btn" data-translate="btn_print">Print Resume</button>
+                    </div>
+                </div>
+
+                <!-- Правая часть: Фото и декор -->
+                <div class="hero__visual">
+                    <div class="hero__image-wrapper">
+                        <img src="./img/photo.jpg" alt="Anastasiya Makarova" class="image hero__photo" data-translate-alt="photo_alt" loading="eager">
+                        <div class="hero__decor">
+                            <span class="hero__decor-text" data-translate="decor_text">CODE · CREATE · GROW</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section section__about reveal" id="about">
+            <div class="container section__layout">
+                <div class="section__header">
+                    <span class="section__number">01</span>
+                    <h2 class="section__title" data-translate="about_title">О СЕБЕ</h2>
+                </div>
+                <div class="about__body">
+                    <div class="about__intro">
+                        <p class="about__text" data-translate="about_text_first">
+                            Transitioning from technical and banking sectors into frontend development.
+                        </p>
+                        <p class="about__text" data-translate="about_text_second">
+                            I have an engineering background and experience working with documentation, clients, and large amounts of information. Currently focusing on JavaScript, HTML, CSS, and building real web projects.
+                        </p>
+                        <p class="about__text" data-translate="about_text_third">
+                            Looking for a team where I can ask questions, get feedback, and grow through real tasks.
+                        </p>
+                    </div>
+                    <ul class="about__list">
+                        <li class="about__list-item" data-translate='soft_skills_thinking'>Systematic thinking</li>
+                        <li class="about__list-item" data-translate='soft_skills_attention'>Attention to detail</li>
+                        <li class="about__list-item" data-translate='soft_skills_discipline'>Discipline and self-organization</li>
+                        <li class="about__list-item" data-translate='soft_skills_learning'>Fast learning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section__skills reveal" id="skills">
+            <div class="container section__layout">
+                <div class="section__header">
+                    <span class="section__number">02</span>
+                    <h2 class="section__title" data-translate="skills">SKILLS</h2>
+                </div>
+                <div class="skills__grid">
+                    <div class="skills__group">
+                        <h3 class="skills__label" data-translate="skills_core_label">CORE</h3>
+                        <ul class="skills__list skills__list--levels">
+                            <li class="skills__list-item" style="--level: 52%" data-translate="skill_js">JavaScript (basic-confident)</li>
+                            <li class="skills__list-item" style="--level: 15%" data-translate="skill_python">Python (actively learning)</li>
+                            <li class="skills__list-item" style="--level: 90%">HTML5 / CSS3</li>
+                            <li class="skills__list-item" style="--level: 22%" data-translate="skill_git">Git (basic commands)</li>
+                        </ul>
+                    </div>
+                    <div class="skills__group">
+                        <h3 class="skills__label" data-translate="skills_tools">TOOLS</h3>
+                        <ul class="skills__list">
+                            <li class="skills__list-item">VS Code / WebStorm</li>
+                            <li class="skills__list-item">Git / GitHub</li>
+                            <li class="skills__list-item">Figma</li>
+                            <li class="skills__list-item">Chrome DevTools</li>
+                            <li class="skills__list-item">Vite / WebPack</li>
+                        </ul>
+                    </div>
+                    <div class="skills__group">
+                        <h3 class="skills__label" data-translate="skills_lang_label">LANGUAGES</h3>
+                        <ul class="skills__list">
+                            <li class="skills__list-item" data-translate="lang_ru">Russian — Native</li>
+                            <li class="skills__list-item" data-translate="lang_en">English — B1</li>
+                        </ul>
+                        <h3 class="skills__label" data-translate="skills_additional">ADDITIONAL</h3>
+                        <ul class="skills__list">
+                            <li class="skills__list-item" data-translate="additional_alg">Algorithms</li>
+                            <li class="skills__list-item" data-translate="additional_arch">Frontend Architecture</li>
+                            <li class="skills__list-item" data-translate="additional_api">API Integration</li>
+                            <li class="skills__list-item" data-translate="additional_des">Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section section__projects reveal" id="projects">
+            <div class="container section__layout">
+                <div class="section__header">
+                    <span class="section__number">03</span>
+                    <h2 class="section__title" data-translate="projects">PROJECTS</h2>
+                </div>
+                <div class="projects__grid">
+                    <a class="project__link" href="https://asyalapa.github.io/rsschool-cv" target="_blank">
+                        <article class="project">
+                            <div class="project__top">
+                                <span class="project__number">01</span>
+                                <span class="project__type" data-translate="project_type_edu">EDUCATIONAL</span>
+                            </div>
+                            <div class="project__body">
+                                <h3 class="project__title" data-translate="project_1_title">CV / PORTFOLIO</h3>
+                                <p class="project__description" data-translate="project_1_desc">
+                                    Personal CV webpage built with semantic HTML, responsive CSS, and interactive JavaScript.
+                                </p>
+                                <ul class="project__tags">
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <span class="project__link-text" data-translate="project_view">VIEW PROJECT ↗</span>
+                        </article>
+                    </a>
+                    <a class="project__link" href="https://asyalapa.github.io/nails-landing/" target="_blank">
+                        <article class="project">
+                            <div class="project__top">
+                                <span class="project__number">02</span>
+                                <span class="project__type" data-translate="project_type_edu">EDUCATIONAL</span>
+                            </div>
+                            <div class="project__body">
+                                <h3 class="project__title" data-translate="project_2_title">Princess Nails</h3>
+                                <p class="project__description" data-translate="project_2_desc">
+                                    Responsive landing page for a nail service master with elegant design.
+                                </p>
+                                <ul class="project__tags">
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <span class="project__link-text" data-translate="project_view">VIEW PROJECT ↗</span>
+                        </article>
+                    </a>
+                    <a class="project__link" href="https://asyalapa.github.io/smm-pro-landing/" target="_blank">
+                        <article class="project">
+                            <div class="project__top">
+                                <span class="project__number">03</span>
+                                <span class="project__type" data-translate="project_type_edu">EDUCATIONAL</span>
+                            </div>
+                            <div class="project__body">
+                                <h3 class="project__title" data-translate="project_3_title">SMM Course Landing</h3>
+                                <p class="project__description" data-translate="project_3_desc">
+                                    Modern one-page landing for an online SMM promotion course.
+                                </p>
+                                <ul class="project__tags">
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <span class="project__link-text" data-translate="project_view">VIEW PROJECT ↗</span>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CODE EXAMPLE -->
+        <section class="section section__code-examples reveal">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" data-translate="code_example_title">CODE EXAMPLE</h2>
+                </div>
+                <div class="code-example__grid">
+                    <article class="code-example">
+                        <div class="code-example__top">
+                            <span class="code-example__number">01</span>
+                            <span class="code-example__type">JavaScript</span>
+                        </div>
+                        <div class="code-example__body">
+                            <h3 class="code-example__title" data-translate="code_example_1_title">Palindrome Checker (with spaces)</h3>
+                            <pre class="code-example__code">
+                                <code data-language="javascript">
+function isPalindrome(str) {
+    const cleaned = str.toLowerCase().replace(/[^a-zа-яё0-9]/g, '');
+    return cleaned === cleaned.split('').reverse().join('');
+}
+                                </code>
+                            </pre>
+                        </div>
+                    </article>
+                    <article class="code-example">
+                        <div class="code-example__top">
+                            <span class="code-example__number">02</span>
+                            <span class="code-example__type">Python</span>
+                        </div>
+                        <div class="code-example__body">
+                            <h3 class="code-example__title" data-translate="code_example_2_title">Merge Unique Elements</h3>
+                            <pre class="code-example__code">
+                                <code data-language="python">
+def unique_from_two(list1, list2):
+    return list(set(list1) | set(list2))
+                                </code>
+                            </pre>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section section__experience reveal" id="experience">
+            <div class="container section__layout">
+                <div class="section__header">
+                    <span class="section__number">04</span>
+                    <h2 class="section__title" data-translate="experience_title">WORK EXPERIENCE</h2>
+                </div>
+                <div class="timeline">
+                    <article class="timeline__item">
+                        <div class="timeline__date">2018 — 2022</div>
+                        <div class="timeline__content">
+                            <h3 data-translate="exp_1_role">Customer Support Specialist</h3>
+                            <p data-translate="exp_1_company">Rosbank PJSC</p>
+                            <p class="timeline__desc" data-translate="exp_1_desc">Handled 30–50 daily inquiries, resolved complex requests, and coordinated across departments.</p>
+                        </div>
+                    </article>
+                    <article class="timeline__item">
+                        <div class="timeline__date">2017</div>
+                        <div class="timeline__content">
+                            <h3 data-translate="exp_2_role">Mathematics Teacher</h3>
+                            <p data-translate="exp_2_company">School No. 60</p>
+                            <p class="timeline__desc" data-translate="exp_2_desc">Taught algebra and geometry, adapted complex material to students' level.</p>
+                        </div>
+                    </article>
+                    <article class="timeline__item">
+                        <div class="timeline__date">2016–2017</div>
+                        <div class="timeline__content">
+                            <h3 data-translate="exp_3_role">Document Management Specialist</h3>
+                            <p data-translate="exp_3_company">Avto-Vik LLC</p>
+                            <p class="timeline__desc" data-translate="exp_3_desc">Managed document flow in 1C, supported procurement and warehouse operations.</p>
+                        </div>
+                    </article>
+                    <article class="timeline__item">
+                        <div class="timeline__date">2013–2016</div>
+                        <div class="timeline__content">
+                            <h3 data-translate="exp_4_role">Design Engineer</h3>
+                            <p data-translate="exp_4_company">United Engineering Center LLC</p>
+                            <p class="timeline__desc" data-translate="exp_4_desc">Developed technical drawings and documentation according to requirements.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section section__education reveal" id="education">
+            <div class="container section__layout">
+                <div class="section__header">
+                    <span class="section__number">05</span>
+                    <h2 class="section__title" data-translate="education">EDUCATION</h2>
+                </div>
+                <div class="education__body">
+                    <div class="education__group">
+                        <article class="education__item">
+                            <span class="education__year">2016</span>
+                            <div>
+                                <h3 class="education__title" data-translate="edu_1_title">NNSTU named after R.E. Alekseev</h3>
+                                <p class="education__degree" data-translate="edu_1_degree">Master's Degree, Institute of Transport Systems</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="education__group">
+                        <article class="education__item">
+                            <span class="education__year">2026</span>
+                            <div>
+                                <h3 class="education__title" data-translate="edu_2_title">RS School</h3>
+                                <p class="education__degree" data-translate="edu_2_degree">Full-Stack JavaScript</p>
+                            </div>
+                        </article>
+                        <article class="education__item">
+                            <span class="education__year">2026</span>
+                            <div>
+                                <h3 class="education__title" data-translate="edu_3_title">1C:April Soft</h3>
+                                <p class="education__degree" data-translate="edu_3_degree">Python Basics from Scratch</p>
+                            </div>
+                        </article>
+                        <article class="education__item">
+                            <span class="education__year">2022</span>
+                            <div>
+                                <h3 class="education__title" data-translate="edu_4_title">RS School</h3>
+                                <p class="education__degree" data-translate="edu_4_degree">JS/FE Pre-School</p>
+                            </div>
+                        </article>
+                        <article class="education__item">
+                            <span class="education__year">2021</span>
+                            <div>
+                                <h3 class="education__title" data-translate="edu_5_title">Innopolis University</h3>
+                                <p class="education__degree" data-translate="edu_5_degree">Frontend Development Basics</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section__contact reveal" id="contact">
+            <div class="container section__layout">
+                <div class="section__header">
+                    <span class="section__number">06</span>
+                    <h2 class="section__title" data-translate="contact">CONTACT</h2>
+                </div>
+                <div class="contact__body">
+                    <h3 class="contact__lead" data-translate="contact_lead">Let's build something</h3>
+                    <ul class="contact__links">
+                        <li>
+                            <a href="mailto:asyalapa@gmail.com">asyalapa@gmail.com ↗</a>
+                        </li>
+                        <li>
+                            <a href="https://max.ru/u/f9LHodD0cOKEIf41ExmGAO7J_K5DbSC8_rLBaSs1NUDS42xEk0Kvph6njVQ">Max ↗</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/asyalapa" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/asyalapa" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <footer class="footer">
+            <div class="container footer__inner">
+                <p class="footer__copy">©
+                    <span id="current-year"></span>
+                    <a class="footer__top" href="https://github.com/asyalapa" target="_blank" rel="noopener noreferrer">Asyalapa</a>
+                </p>
+                <a class="footer__school" href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer" aria-label="RS School">
+                    <img class="image footer__image" src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/25280abf1815aaf58ff04a69c0f82393d5f54ef0/tasks/cv/rs-school-logo.svg" data-translate-alt="rs_school_alt" alt="RS School" loading="lazy">
+                </a>
+                <p class="footer__tech" data-translate="footer_tech">Designed &amp; Built with HTML / CSS / JS</p>
+                <a href="#top" class="footer__top" data-translate="footer_top">Back to top ↑</a>
+            </div>
+        </footer>
+
+    <script src="./script.js" defer></script>
+   </body>
+</html>
